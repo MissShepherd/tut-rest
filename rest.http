@@ -1,0 +1,11 @@
+### Get request to example server
+GET localhost:8080/employees
+Accept: application/json
+
+###
+GET http://localhost:8080/employees/1
+Accept: application/json
+
+###
+GET localhost:8080/orders/1
+Accept: application/json
