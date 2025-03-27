@@ -24,6 +24,7 @@ class EmployeeController {
 	private final EmployeeRepository repository;
 
 	private final EmployeeModelAssembler assembler;
+	@SuppressWarnings("unused")
 	private final OrderModelAssembler orderAssembler;
 
 	EmployeeController(EmployeeRepository repository, EmployeeModelAssembler assembler,
